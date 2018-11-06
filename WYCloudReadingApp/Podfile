@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+target 'WYCloudReadingApp' do
+
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'SnapKit'
+  pod 'Kingfisher'
+  pod 'SVProgressHUD'
+
+use_frameworks!
+
+end 
