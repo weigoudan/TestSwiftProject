@@ -1,22 +1,20 @@
 //
-//  DefaultNavController.swift
+//  ClaasifyVC.swift
 //  WYCloudReadingApp
 //
-//  Created by  iOS-韦云枭 on 2018/10/15.
+//  Created by  iOS-韦云枭 on 2018/11/7.
 //  Copyright © 2018年  iOS-韦云枭. All rights reserved.
 //
 
 import UIKit
 
-class DefaultNavController: UINavigationController {
+class ClassifyVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-        // 设置bar的背景颜色
-        navigationBar.barTintColor = .white
+        view.backgroundColor = .white
+        title = "分类"
         
     }
     

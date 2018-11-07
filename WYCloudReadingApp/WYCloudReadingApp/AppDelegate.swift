@@ -12,10 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let rootVC = RootTabbarController()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window!.backgroundColor = .white
+        window!.rootViewController = rootVC
+        window!.makeKeyAndVisible()
         
         return true
     }

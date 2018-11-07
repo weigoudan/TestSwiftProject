@@ -1,23 +1,27 @@
 //
-//  DefaultNavController.swift
+//  BookStoreVC.swift
 //  WYCloudReadingApp
 //
-//  Created by  iOS-韦云枭 on 2018/10/15.
+//  Created by  iOS-韦云枭 on 2018/11/7.
 //  Copyright © 2018年  iOS-韦云枭. All rights reserved.
 //
 
 import UIKit
 
-class DefaultNavController: UINavigationController {
+class BookStoreVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+
         
-        // 设置bar的背景颜色
-        navigationBar.barTintColor = .white
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // 隐藏导航栏
+        navigationController?.isNavigationBarHidden = true
     }
     
 

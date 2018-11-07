@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		33E692E16CB1B91F78A88D3B /* Pods_WYCloudReadingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96765725E65CC75E79A8BF8 /* Pods_WYCloudReadingApp.framework */; };
 		A52CA4902186E5B2008A9764 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52CA48F2186E5B2008A9764 /* Enum.swift */; };
+		A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5558407219283A100C8E0C3 /* BookStoreVC.swift */; };
+		A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840A219283EC00C8E0C3 /* ClassifyVC.swift */; };
+		A555840E2192841F00C8E0C3 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840D2192841F00C8E0C3 /* MineVC.swift */; };
+		A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A555840F2192AE9C00C8E0C3 /* MineItem.plist */; };
+		A55584122192BE6500C8E0C3 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584112192BE6400C8E0C3 /* Tools.swift */; };
+		A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584132192C39000C8E0C3 /* ExecuteHeader.swift */; };
+		A55584172192D18900C8E0C3 /* MineItemDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584152192D18900C8E0C3 /* MineItemDefaultCell.swift */; };
+		A55584182192D18900C8E0C3 /* MineItemDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55584162192D18900C8E0C3 /* MineItemDefaultCell.xib */; };
+		A555841B2192D46600C8E0C3 /* MineItemRightViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584192192D46600C8E0C3 /* MineItemRightViewCell.swift */; };
+		A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A555841A2192D46600C8E0C3 /* MineItemRightViewCell.xib */; };
+		A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555841E2192DEDA00C8E0C3 /* DataModel.swift */; };
+		A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584202192E8E000C8E0C3 /* MineHeaderView.swift */; };
+		A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55584222192EA4000C8E0C3 /* MineHeaderView.xib */; };
 		A563879F21747799007D7D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563879E21747799007D7D68 /* AppDelegate.swift */; };
 		A56387A421747799007D7D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56387A221747799007D7D68 /* Main.storyboard */; };
 		A56387A62174779F007D7D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56387A52174779F007D7D68 /* Assets.xcassets */; };
@@ -44,6 +57,19 @@
 		2B426CA2AEA054F1CBAF3D5C /* Pods-WYCloudReadingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		786BCC4C737581803145E6D9 /* Pods-WYCloudReadingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.release.xcconfig"; sourceTree = "<group>"; };
 		A52CA48F2186E5B2008A9764 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		A5558407219283A100C8E0C3 /* BookStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
+		A555840A219283EC00C8E0C3 /* ClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyVC.swift; sourceTree = "<group>"; };
+		A555840D2192841F00C8E0C3 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		A555840F2192AE9C00C8E0C3 /* MineItem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MineItem.plist; sourceTree = "<group>"; };
+		A55584112192BE6400C8E0C3 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		A55584132192C39000C8E0C3 /* ExecuteHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecuteHeader.swift; sourceTree = "<group>"; };
+		A55584152192D18900C8E0C3 /* MineItemDefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineItemDefaultCell.swift; sourceTree = "<group>"; };
+		A55584162192D18900C8E0C3 /* MineItemDefaultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineItemDefaultCell.xib; sourceTree = "<group>"; };
+		A55584192192D46600C8E0C3 /* MineItemRightViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineItemRightViewCell.swift; sourceTree = "<group>"; };
+		A555841A2192D46600C8E0C3 /* MineItemRightViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineItemRightViewCell.xib; sourceTree = "<group>"; };
+		A555841E2192DEDA00C8E0C3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A55584202192E8E000C8E0C3 /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
+		A55584222192EA4000C8E0C3 /* MineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineHeaderView.xib; sourceTree = "<group>"; };
 		A563879B21747799007D7D68 /* WYCloudReadingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYCloudReadingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A563879E21747799007D7D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56387A321747799007D7D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +118,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A55584062192835A00C8E0C3 /* 书城 */ = {
+			isa = PBXGroup;
+			children = (
+				A5558407219283A100C8E0C3 /* BookStoreVC.swift */,
+			);
+			path = "书城";
+			sourceTree = "<group>";
+		};
+		A5558409219283BC00C8E0C3 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				A555840A219283EC00C8E0C3 /* ClassifyVC.swift */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		A555840C219283FC00C8E0C3 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				A555840D2192841F00C8E0C3 /* MineVC.swift */,
+				A55584202192E8E000C8E0C3 /* MineHeaderView.swift */,
+				A55584222192EA4000C8E0C3 /* MineHeaderView.xib */,
+				A55584152192D18900C8E0C3 /* MineItemDefaultCell.swift */,
+				A55584162192D18900C8E0C3 /* MineItemDefaultCell.xib */,
+				A55584192192D46600C8E0C3 /* MineItemRightViewCell.swift */,
+				A555841A2192D46600C8E0C3 /* MineItemRightViewCell.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		A555841D2192DEB700C8E0C3 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A555841E2192DEDA00C8E0C3 /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		A563879221747799007D7D68 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				A56387D82174A442007D7D68 /* NetworkingManager.swift */,
+				A55584112192BE6400C8E0C3 /* Tools.swift */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -194,7 +259,11 @@
 		A56387D52174A331007D7D68 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				A555841D2192DEB700C8E0C3 /* DataModel */,
 				A56387DA2174A467007D7D68 /* RootPage */,
+				A55584062192835A00C8E0C3 /* 书城 */,
+				A5558409219283BC00C8E0C3 /* 分类 */,
+				A555840C219283FC00C8E0C3 /* 我的 */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -202,6 +271,7 @@
 		A56387D62174A3D6007D7D68 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				A55584132192C39000C8E0C3 /* ExecuteHeader.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -237,6 +307,7 @@
 		A56387E42174A697007D7D68 /* plists */ = {
 			isa = PBXGroup;
 			children = (
+				A555840F2192AE9C00C8E0C3 /* MineItem.plist */,
 			);
 			path = plists;
 			sourceTree = "<group>";
@@ -372,9 +443,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */,
 				A56387A92174779F007D7D68 /* LaunchScreen.storyboard in Resources */,
 				A56387A62174779F007D7D68 /* Assets.xcassets in Resources */,
+				A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */,
+				A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */,
 				A56387A421747799007D7D68 /* Main.storyboard in Resources */,
+				A55584182192D18900C8E0C3 /* MineItemDefaultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +521,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A555840E2192841F00C8E0C3 /* MineVC.swift in Sources */,
+				A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */,
 				A563879F21747799007D7D68 /* AppDelegate.swift in Sources */,
+				A555841B2192D46600C8E0C3 /* MineItemRightViewCell.swift in Sources */,
+				A55584122192BE6500C8E0C3 /* Tools.swift in Sources */,
+				A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */,
 				A56387E02174A5BF007D7D68 /* BasicViewController.swift in Sources */,
 				A52CA4902186E5B2008A9764 /* Enum.swift in Sources */,
 				A56387E22174A5F6007D7D68 /* DefaultTabbarView.swift in Sources */,
+				A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */,
 				A56387DC2174A491007D7D68 /* RootTabbarController.swift in Sources */,
+				A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */,
+				A55584172192D18900C8E0C3 /* MineItemDefaultCell.swift in Sources */,
 				A56387E72174A7AE007D7D68 /* Constants.swift in Sources */,
 				A56387D92174A442007D7D68 /* NetworkingManager.swift in Sources */,
+				A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */,
 				A56387DE2174A4C2007D7D68 /* DefaultNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,7 +727,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "WYCloudReadingApp/WYCloudReadingApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -665,7 +749,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WYCloudReadingApp/WYCloudReadingApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
