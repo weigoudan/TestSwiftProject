@@ -17,24 +17,26 @@ class MineVC: UIViewController {
     lazy var bottomTableView : UITableView = {
         // 初始化
         let frame = kDeviceIsBangScreen ? CGRect(x: 0.0, y: 44.0, width: kScreenWidth, height: kScreenHeight-44.0-83.0) : CGRect(x: 0.0, y: 0.0, width: kScreenWidth, height: kScreenHeight-49.0)
-        let tableView = UITableView.init(frame: frame, style: .plain)
+        let tableView = UITableView.init(frame: frame, style: .grouped)
+        tableView.backgroundColor = view.backgroundColor
         // 设置属性
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
+        tableView.showsVerticalScrollIndicator = false
+        tableView.showsHorizontalScrollIndicator = false
         // 注册cell
         tableView.register(UINib.init(nibName: "MineItemDefaultCell", bundle: nil), forCellReuseIdentifier: defaultCellIdentifier)
         tableView.register(UINib.init(nibName: "MineItemRightViewCell", bundle: nil), forCellReuseIdentifier: rightViewCellIdentifier)
-        tableView.tableHeaderView = headerView
         
         return tableView;
     }()
     
     /* 区头 */
-    lazy var headerView: UIView = {
-        let headerView = Bundle.main.loadNibNamed("MineHeaderView", owner: self, options: nil)?.first as! MineHeaderView
-        headerView.frame = CGRect(x: 0.0, y: 0.0, width: kScreenWidth, height: 170.0)
-        return headerView
+    lazy var headerView: MineHeaderView = {
+        let hView = Bundle.main.loadNibNamed("MineHeaderView", owner: self, options: nil)?.first as! MineHeaderView
+        hView.frame = CGRect(x: 0.0, y: 0.0, width: kScreenWidth, height: 170.0)
+        return hView
     }()
     
     /* 数据源 */
@@ -56,18 +58,9 @@ class MineVC: UIViewController {
         super.viewWillAppear(animated)
         // 隐藏导航栏
         navigationController?.isNavigationBarHidden = true
+        // 登录状态设置一切
+        headerView.updateAllWithLoginStatusFunc()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
@@ -79,18 +72,18 @@ extension MineVC : UITableViewDelegate, UITableViewDataSource {
         return 60.0
     }
     
-//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        if section == 0 {
-//            return 170.0
-//        }
-//        return 0.0
-//    }
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 {
+            return 170.0
+        }
+        return 0.0
+    }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if section == 0 {
             return 10.0
         }
-        return 0.0
+        return 50.0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -150,14 +143,24 @@ extension MineVC : UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        return headerView
-//    }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if section == 0 {
+            return headerView
+        }
+        return nil
+    }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        let view = UIView.init()
-        view.backgroundColor = UIColor.init(red: 197.0, green: 197.0, blue: 197.0, alpha: 1.0)
-        return view
+//        if section == 0 {
+        let footerView = UIView.init()
+        if section == 0 {
+            footerView.backgroundColor = UIColor(hexCode: "#F2F2F2")
+        }else {
+            footerView.backgroundColor = .white
+        }
+        return footerView
+//        }
+//        return nil
     }
     
 }

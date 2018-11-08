@@ -14,7 +14,7 @@ class MineHeaderView: UIView {
     @IBOutlet weak var headImgView: UIImageView!
     
     /* 点击登陆label */
-    @IBOutlet weak var loginLB: UILabel!
+    @IBOutlet weak var loginBtn: UIButton!
     
     /* 信息view */
     @IBOutlet weak var dataView: UIView!
@@ -25,7 +25,6 @@ class MineHeaderView: UIView {
     /* 编辑view */
     @IBOutlet weak var editView: UIView!
     
-
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -53,4 +52,38 @@ class MineHeaderView: UIView {
         
     }
     
+    /* 点击登录 */
+    @IBAction func loginBtnClickFunc(_ sender: UIButton) {
+        guard let viewC : UIViewController = self.firstViewController() else {
+            return
+        }
+        let loginNav = UINavigationController.init(rootViewController: UIStoryboard(name: "LoginAndRegister", bundle: nil).instantiateViewController(withIdentifier: "loginVC"))
+        viewC.showDetailViewController(loginNav, sender: nil)
+    }
+    
+    
+    
 }
+
+extension MineHeaderView {
+    
+    // 登录或不登录处理
+    func updateAllWithLoginStatusFunc() -> Void {
+        if UserDefaults.standard.value(forKey: "login") as? Bool ?? false {
+            // 没有login这个字段或者字段值不为true即为不登录状态
+            loginBtn.isHidden = true
+            dataView.isHidden = false
+            editView.isHidden = false
+            // 用户名称
+            nameLB.text = "大佬(big old)"
+            // 头像
+            
+        }else {
+            loginBtn.isHidden = false
+            dataView.isHidden = true
+            editView.isHidden = true
+        }
+    }
+    
+}
+

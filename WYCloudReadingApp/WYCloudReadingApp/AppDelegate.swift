@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        // 装逼睡眠2秒,让用户看launchScreen?
+        Thread.sleep(forTimeInterval: 2.0)
+        
+        // IQKeyboard
+        IQKeyboardManager.shared().isEnabled = true
+        IQKeyboardManager.shared().shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared().isEnableAutoToolbar = false
+        
+        // 配置window
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window!.backgroundColor = .white
         window!.rootViewController = rootVC

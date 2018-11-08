@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		33E692E16CB1B91F78A88D3B /* Pods_WYCloudReadingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96765725E65CC75E79A8BF8 /* Pods_WYCloudReadingApp.framework */; };
 		A52CA4902186E5B2008A9764 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52CA48F2186E5B2008A9764 /* Enum.swift */; };
+		A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A242193CA7F005E8A32 /* LoginVC.swift */; };
+		A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5434A262193CA9B005E8A32 /* LoginAndRegister.storyboard */; };
+		A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A282193CAB5005E8A32 /* RegisterVC.swift */; };
+		A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */; };
+		A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */; };
 		A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5558407219283A100C8E0C3 /* BookStoreVC.swift */; };
 		A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840A219283EC00C8E0C3 /* ClassifyVC.swift */; };
 		A555840E2192841F00C8E0C3 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840D2192841F00C8E0C3 /* MineVC.swift */; };
@@ -57,6 +62,11 @@
 		2B426CA2AEA054F1CBAF3D5C /* Pods-WYCloudReadingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		786BCC4C737581803145E6D9 /* Pods-WYCloudReadingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.release.xcconfig"; sourceTree = "<group>"; };
 		A52CA48F2186E5B2008A9764 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		A5434A242193CA7F005E8A32 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A5434A262193CA9B005E8A32 /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		A5434A282193CAB5005E8A32 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingVC.swift; sourceTree = "<group>"; };
 		A5558407219283A100C8E0C3 /* BookStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
 		A555840A219283EC00C8E0C3 /* ClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyVC.swift; sourceTree = "<group>"; };
 		A555840D2192841F00C8E0C3 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
@@ -118,6 +128,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5434A232193CA39005E8A32 /* 登陆注册 */ = {
+			isa = PBXGroup;
+			children = (
+				A5434A242193CA7F005E8A32 /* LoginVC.swift */,
+				A5434A282193CAB5005E8A32 /* RegisterVC.swift */,
+				A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */,
+				A5434A262193CA9B005E8A32 /* LoginAndRegister.storyboard */,
+			);
+			path = "登陆注册";
+			sourceTree = "<group>";
+		};
+		A5434A2C219439E6005E8A32 /* 广告 */ = {
+			isa = PBXGroup;
+			children = (
+				A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */,
+			);
+			path = "广告";
+			sourceTree = "<group>";
+		};
 		A55584062192835A00C8E0C3 /* 书城 */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +290,8 @@
 			children = (
 				A555841D2192DEB700C8E0C3 /* DataModel */,
 				A56387DA2174A467007D7D68 /* RootPage */,
+				A5434A2C219439E6005E8A32 /* 广告 */,
+				A5434A232193CA39005E8A32 /* 登陆注册 */,
 				A55584062192835A00C8E0C3 /* 书城 */,
 				A5558409219283BC00C8E0C3 /* 分类 */,
 				A555840C219283FC00C8E0C3 /* 我的 */,
@@ -446,6 +477,7 @@
 				A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */,
 				A56387A92174779F007D7D68 /* LaunchScreen.storyboard in Resources */,
 				A56387A62174779F007D7D68 /* Assets.xcassets in Resources */,
+				A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */,
 				A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */,
 				A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */,
 				A56387A421747799007D7D68 /* Main.storyboard in Resources */,
@@ -478,6 +510,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -486,6 +519,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -529,12 +563,16 @@
 				A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */,
 				A56387E02174A5BF007D7D68 /* BasicViewController.swift in Sources */,
 				A52CA4902186E5B2008A9764 /* Enum.swift in Sources */,
+				A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */,
 				A56387E22174A5F6007D7D68 /* DefaultTabbarView.swift in Sources */,
 				A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */,
+				A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */,
 				A56387DC2174A491007D7D68 /* RootTabbarController.swift in Sources */,
 				A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */,
 				A55584172192D18900C8E0C3 /* MineItemDefaultCell.swift in Sources */,
+				A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */,
 				A56387E72174A7AE007D7D68 /* Constants.swift in Sources */,
+				A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */,
 				A56387D92174A442007D7D68 /* NetworkingManager.swift in Sources */,
 				A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */,
 				A56387DE2174A4C2007D7D68 /* DefaultNavController.swift in Sources */,
@@ -647,6 +685,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -701,6 +740,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -716,11 +756,27 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XNV8M32XV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WYCloudReadingApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.doubleb.WYCloudReadingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -728,6 +784,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -739,17 +796,34 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XNV8M32XV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WYCloudReadingApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.doubleb.WYCloudReadingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WYCloudReadingApp/WYCloudReadingApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
