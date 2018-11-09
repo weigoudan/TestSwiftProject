@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		33E692E16CB1B91F78A88D3B /* Pods_WYCloudReadingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96765725E65CC75E79A8BF8 /* Pods_WYCloudReadingApp.framework */; };
+		A509833A219513F100D49B5A /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5098339219513F100D49B5A /* MineVC.swift */; };
+		A509833E2195145600D49B5A /* SetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509833D2195145600D49B5A /* SetVC.swift */; };
+		A50983402195154300D49B5A /* DefaultNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509833F2195154300D49B5A /* DefaultNavigationView.swift */; };
+		A50983432195270100D49B5A /* SetDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50983412195270100D49B5A /* SetDefaultCell.swift */; };
+		A50983442195270100D49B5A /* SetDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50983422195270100D49B5A /* SetDefaultCell.xib */; };
+		A509834621955E1600D49B5A /* PlaceholderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509834521955E1600D49B5A /* PlaceholderVC.swift */; };
+		A50983482195691600D49B5A /* MyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50983472195691600D49B5A /* MyInfoVC.swift */; };
+		A509834A2195692C00D49B5A /* EditUserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50983492195692C00D49B5A /* EditUserInfoVC.swift */; };
+		A509834C2195706000D49B5A /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A509834B2195706000D49B5A /* Mine.storyboard */; };
 		A52CA4902186E5B2008A9764 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52CA48F2186E5B2008A9764 /* Enum.swift */; };
 		A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A242193CA7F005E8A32 /* LoginVC.swift */; };
 		A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5434A262193CA9B005E8A32 /* LoginAndRegister.storyboard */; };
@@ -16,7 +25,6 @@
 		A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */; };
 		A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5558407219283A100C8E0C3 /* BookStoreVC.swift */; };
 		A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840A219283EC00C8E0C3 /* ClassifyVC.swift */; };
-		A555840E2192841F00C8E0C3 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840D2192841F00C8E0C3 /* MineVC.swift */; };
 		A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A555840F2192AE9C00C8E0C3 /* MineItem.plist */; };
 		A55584122192BE6500C8E0C3 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584112192BE6400C8E0C3 /* Tools.swift */; };
 		A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584132192C39000C8E0C3 /* ExecuteHeader.swift */; };
@@ -61,6 +69,15 @@
 /* Begin PBXFileReference section */
 		2B426CA2AEA054F1CBAF3D5C /* Pods-WYCloudReadingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		786BCC4C737581803145E6D9 /* Pods-WYCloudReadingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCloudReadingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYCloudReadingApp/Pods-WYCloudReadingApp.release.xcconfig"; sourceTree = "<group>"; };
+		A5098339219513F100D49B5A /* MineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		A509833D2195145600D49B5A /* SetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVC.swift; sourceTree = "<group>"; };
+		A509833F2195154300D49B5A /* DefaultNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavigationView.swift; sourceTree = "<group>"; };
+		A50983412195270100D49B5A /* SetDefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDefaultCell.swift; sourceTree = "<group>"; };
+		A50983422195270100D49B5A /* SetDefaultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetDefaultCell.xib; sourceTree = "<group>"; };
+		A509834521955E1600D49B5A /* PlaceholderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderVC.swift; sourceTree = "<group>"; };
+		A50983472195691600D49B5A /* MyInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoVC.swift; sourceTree = "<group>"; };
+		A50983492195692C00D49B5A /* EditUserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInfoVC.swift; sourceTree = "<group>"; };
+		A509834B2195706000D49B5A /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		A52CA48F2186E5B2008A9764 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		A5434A242193CA7F005E8A32 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A5434A262193CA9B005E8A32 /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
@@ -69,7 +86,6 @@
 		A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingVC.swift; sourceTree = "<group>"; };
 		A5558407219283A100C8E0C3 /* BookStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
 		A555840A219283EC00C8E0C3 /* ClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyVC.swift; sourceTree = "<group>"; };
-		A555840D2192841F00C8E0C3 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
 		A555840F2192AE9C00C8E0C3 /* MineItem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MineItem.plist; sourceTree = "<group>"; };
 		A55584112192BE6400C8E0C3 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		A55584132192C39000C8E0C3 /* ExecuteHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecuteHeader.swift; sourceTree = "<group>"; };
@@ -128,6 +144,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A509833B2195142300D49B5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5098339219513F100D49B5A /* MineVC.swift */,
+				A509833D2195145600D49B5A /* SetVC.swift */,
+				A50983472195691600D49B5A /* MyInfoVC.swift */,
+				A50983492195692C00D49B5A /* EditUserInfoVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A509833C2195142900D49B5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A55584202192E8E000C8E0C3 /* MineHeaderView.swift */,
+				A55584222192EA4000C8E0C3 /* MineHeaderView.xib */,
+				A55584152192D18900C8E0C3 /* MineItemDefaultCell.swift */,
+				A55584162192D18900C8E0C3 /* MineItemDefaultCell.xib */,
+				A55584192192D46600C8E0C3 /* MineItemRightViewCell.swift */,
+				A555841A2192D46600C8E0C3 /* MineItemRightViewCell.xib */,
+				A50983412195270100D49B5A /* SetDefaultCell.swift */,
+				A50983422195270100D49B5A /* SetDefaultCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A5434A232193CA39005E8A32 /* 登陆注册 */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,13 +208,9 @@
 		A555840C219283FC00C8E0C3 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
-				A555840D2192841F00C8E0C3 /* MineVC.swift */,
-				A55584202192E8E000C8E0C3 /* MineHeaderView.swift */,
-				A55584222192EA4000C8E0C3 /* MineHeaderView.xib */,
-				A55584152192D18900C8E0C3 /* MineItemDefaultCell.swift */,
-				A55584162192D18900C8E0C3 /* MineItemDefaultCell.xib */,
-				A55584192192D46600C8E0C3 /* MineItemRightViewCell.swift */,
-				A555841A2192D46600C8E0C3 /* MineItemRightViewCell.xib */,
+				A509834B2195706000D49B5A /* Mine.storyboard */,
+				A509833B2195142300D49B5A /* Controller */,
+				A509833C2195142900D49B5A /* View */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -218,6 +256,7 @@
 				A56387D22174924B007D7D68 /* basic */,
 				A56387D52174A331007D7D68 /* classes */,
 				A563879E21747799007D7D68 /* AppDelegate.swift */,
+				A509834521955E1600D49B5A /* PlaceholderVC.swift */,
 				A56387A221747799007D7D68 /* Main.storyboard */,
 				A56387A52174779F007D7D68 /* Assets.xcassets */,
 				A56387A72174779F007D7D68 /* LaunchScreen.storyboard */,
@@ -281,6 +320,7 @@
 		A56387D421749ED5007D7D68 /* BasicView */ = {
 			isa = PBXGroup;
 			children = (
+				A509833F2195154300D49B5A /* DefaultNavigationView.swift */,
 			);
 			path = BasicView;
 			sourceTree = "<group>";
@@ -476,10 +516,12 @@
 			files = (
 				A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */,
 				A56387A92174779F007D7D68 /* LaunchScreen.storyboard in Resources */,
+				A50983442195270100D49B5A /* SetDefaultCell.xib in Resources */,
 				A56387A62174779F007D7D68 /* Assets.xcassets in Resources */,
 				A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */,
 				A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */,
 				A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */,
+				A509834C2195706000D49B5A /* Mine.storyboard in Resources */,
 				A56387A421747799007D7D68 /* Main.storyboard in Resources */,
 				A55584182192D18900C8E0C3 /* MineItemDefaultCell.xib in Resources */,
 			);
@@ -512,6 +554,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -521,6 +564,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -555,17 +599,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A555840E2192841F00C8E0C3 /* MineVC.swift in Sources */,
+				A50983432195270100D49B5A /* SetDefaultCell.swift in Sources */,
 				A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */,
+				A50983482195691600D49B5A /* MyInfoVC.swift in Sources */,
+				A50983402195154300D49B5A /* DefaultNavigationView.swift in Sources */,
 				A563879F21747799007D7D68 /* AppDelegate.swift in Sources */,
 				A555841B2192D46600C8E0C3 /* MineItemRightViewCell.swift in Sources */,
+				A509833E2195145600D49B5A /* SetVC.swift in Sources */,
 				A55584122192BE6500C8E0C3 /* Tools.swift in Sources */,
 				A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */,
+				A509834621955E1600D49B5A /* PlaceholderVC.swift in Sources */,
 				A56387E02174A5BF007D7D68 /* BasicViewController.swift in Sources */,
 				A52CA4902186E5B2008A9764 /* Enum.swift in Sources */,
 				A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */,
 				A56387E22174A5F6007D7D68 /* DefaultTabbarView.swift in Sources */,
 				A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */,
+				A509833A219513F100D49B5A /* MineVC.swift in Sources */,
 				A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */,
 				A56387DC2174A491007D7D68 /* RootTabbarController.swift in Sources */,
 				A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */,
@@ -574,6 +623,7 @@
 				A56387E72174A7AE007D7D68 /* Constants.swift in Sources */,
 				A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */,
 				A56387D92174A442007D7D68 /* NetworkingManager.swift in Sources */,
+				A509834A2195692C00D49B5A /* EditUserInfoVC.swift in Sources */,
 				A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */,
 				A56387DE2174A4C2007D7D68 /* DefaultNavController.swift in Sources */,
 			);

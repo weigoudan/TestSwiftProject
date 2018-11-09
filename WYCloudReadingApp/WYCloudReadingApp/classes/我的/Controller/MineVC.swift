@@ -87,7 +87,14 @@ extension MineVC : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        if indexPath.section == 1 {
+            if indexPath.row == 2 {
+                // 跳转设置界面
+                let viewC = SetVC()
+                viewC.hidesBottomBarWhenPushed = true
+                navigationController?.pushViewController(viewC, animated: true)
+            }
+        }
     }
     
     //MARK: - dataSource

@@ -7,6 +7,7 @@ target 'WYCloudReadingApp' do
   pod 'Kingfisher'
   pod 'SVProgressHUD'
   pod 'IQKeyboardManager'
+  pod 'Masonry'
 
 use_frameworks!
 

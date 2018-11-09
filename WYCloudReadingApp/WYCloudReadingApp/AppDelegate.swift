@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 装逼睡眠2秒,让用户看launchScreen?
         Thread.sleep(forTimeInterval: 2.0)
         
+        // 设置SVProgressHUD的显示时间
+        SVProgressHUD.setMaximumDismissTimeInterval(2.0)
+        
         // IQKeyboard
         IQKeyboardManager.shared().isEnabled = true
         IQKeyboardManager.shared().shouldResignOnTouchOutside = true

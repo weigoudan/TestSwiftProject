@@ -35,12 +35,12 @@ class LoginVC: UIViewController, UITextFieldDelegate {
     @IBAction func loginBtnClickFunc(_ sender: UIButton) {
         // 判断手机号码
         guard phoneTF.text!.checIskMobileNumber() else {
-            SVProgressHUD.show(withStatus: "手机号码输入有误哦,大佬~")
+            SVProgressHUD.showInfo(withStatus: "手机号码输入有误哦,大佬~")
             return
         }
         // 判断密码不为空
         guard passwordTF.text!.count > 0 else {
-            SVProgressHUD.show(withStatus: "密码输入有误哦,大佬~")
+            SVProgressHUD.showInfo(withStatus: "密码输入有误哦,大佬~")
             return
         }
         
@@ -48,23 +48,30 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         // 保存登录标识
         UserDefaults.standard.set(true, forKey: "login")
         // 返回上一级界面
-        
-        navigationController?.dismiss(animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.navigationController?.dismiss(animated: true, completion: nil)
+        }
+    }
+    
+    /* 忘记密码、注册? */
+    @IBAction func forgetOrRegisterBtnClickFunc(_ sender: UIButton) {
+        navigationController?.pushViewController(UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "placeholderVC"), animated: true)
     }
     
     /* 微信登录 */
     @IBAction func wxLoginBtnClickFunc(_ sender: UIButton) {
-        SVProgressHUD.show(withStatus: "iOS技术团队太懒,没接入微信登录~")
+        SVProgressHUD.showInfo(withStatus: "iOS技术团队太懒,没接入微信登录~")
+        
     }
     
     /* 微博登录 */
     @IBAction func wbLoginBtnClickFunc(_ sender: UIButton) {
-        SVProgressHUD.show(withStatus: "iOS技术团队太懒,没接入微博登录~")
+        SVProgressHUD.showInfo(withStatus: "iOS技术团队太懒,没接入微博登录~")
     }
     
     /* 邮箱登录 */
     @IBAction func yxLoginBtnClickFunc(_ sender: UIButton) {
-        SVProgressHUD.show(withStatus: "iOS技术团队太懒,没接入邮箱登录~")
+        SVProgressHUD.showInfo(withStatus: "iOS技术团队太懒,没接入邮箱登录~")
     }
     
     /* 监听tf输入 */

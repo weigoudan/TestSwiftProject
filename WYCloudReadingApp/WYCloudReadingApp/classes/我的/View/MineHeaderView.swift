@@ -44,12 +44,18 @@ class MineHeaderView: UIView {
     //MARK: - 点击事件
     /* 个人信息 */
     @IBAction func userDataTapClickFunc(_ sender: UITapGestureRecognizer) {
-        
+        if UserDefaults.standard.value(forKey: "login") as? Bool ?? false {
+            // 跳转个人信息界面
+            
+        }
     }
     
     /* 编辑信息 */
     @IBAction func editTapClickFunc(_ sender: UITapGestureRecognizer) {
-        
+        guard let viewC : UIViewController = self.firstViewController() else {
+            return
+        }
+        viewC.navigationController?.pushViewController(UIStoryboard(name: "Mine", bundle: nil).instantiateViewController(withIdentifier: "editUserInfoVC"), animated: true)
     }
     
     /* 点击登录 */
@@ -60,8 +66,6 @@ class MineHeaderView: UIView {
         let loginNav = UINavigationController.init(rootViewController: UIStoryboard(name: "LoginAndRegister", bundle: nil).instantiateViewController(withIdentifier: "loginVC"))
         viewC.showDetailViewController(loginNav, sender: nil)
     }
-    
-    
     
 }
 
