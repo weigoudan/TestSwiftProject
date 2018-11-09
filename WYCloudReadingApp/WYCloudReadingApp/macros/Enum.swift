@@ -15,11 +15,16 @@ import Foundation
 
 /* 网路状态 */
 enum AppNetworkingStatus {
-    case NoNetworkingStatus
-    case WifiNetworkingStatus
-    case WapNetworkingStatus
+    case noNetworking
+    case wifiNetworking
+    case wapNetworking
 }
 
-
+/* 弹出actionSheet的类型 */
+enum ShowActionSheetType {
+    case chooseGender
+    case choosePicture
+    
+}
 
 

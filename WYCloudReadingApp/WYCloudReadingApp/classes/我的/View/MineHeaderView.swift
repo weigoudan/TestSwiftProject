@@ -55,7 +55,9 @@ class MineHeaderView: UIView {
         guard let viewC : UIViewController = self.firstViewController() else {
             return
         }
-        viewC.navigationController?.pushViewController(UIStoryboard(name: "Mine", bundle: nil).instantiateViewController(withIdentifier: "editUserInfoVC"), animated: true)
+        let editVC = UIStoryboard(name: "Mine", bundle: nil).instantiateViewController(withIdentifier: "editUserInfoVC")
+        editVC.hidesBottomBarWhenPushed = true
+        viewC.navigationController?.pushViewController(editVC, animated: true)
     }
     
     /* 点击登录 */
