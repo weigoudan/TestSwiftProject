@@ -40,7 +40,6 @@ class MineHeaderView: UIView {
         
     }
     
-    
     //MARK: - 点击事件
     /* 个人信息 */
     @IBAction func userDataTapClickFunc(_ sender: UITapGestureRecognizer) {
@@ -81,9 +80,14 @@ extension MineHeaderView {
             dataView.isHidden = false
             editView.isHidden = false
             // 用户名称
-            nameLB.text = "大佬(big old)"
+            // 昵称
+            if let nickName = UserDefaults.standard.value(forKey: "userNickName") {
+                nameLB.text = nickName as? String;
+            }
             // 头像
-            
+            if let data = DBFileManager.getDataForDirectory(named: "/images/userHeadImage.png", filePath: .caches) {
+                self.headImgView.image = UIImage.init(data: data as Data)
+            }
         }else {
             loginBtn.isHidden = false
             dataView.isHidden = true

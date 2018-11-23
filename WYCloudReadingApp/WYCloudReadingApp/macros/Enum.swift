@@ -20,6 +20,16 @@ enum AppNetworkingStatus {
     case wapNetworking
 }
 
+/* 本地沙盒文件路径 */
+enum AppDirectoryPath {
+    case documents
+    case tmp
+    case library
+    // library文件夹下
+    case caches
+    case preferences
+}
+
 /* 弹出actionSheet的类型 */
 enum ShowActionSheetType {
     case chooseGender
