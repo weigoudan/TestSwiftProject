@@ -11,15 +11,37 @@ import UIKit
 class DBFileManager: NSObject {
     
     //MARK: - 把image保存在本地文件夹
-    class func saveImageForDirectory(with image: UIImage, named imageName: String, filePath: AppDirectoryPath) -> Bool {
-        guard let pathString = getFilePath(with: filePath) else {
+    class func saveImageForDirectory(with image: UIImage, named imageName: String, fileTypePath: AppDirectoryPath) -> Bool {
+        guard let pathString = getFilePath(with: fileTypePath) else {
             return false
+        }
+        // 图片都保存在 ./caches/images/ 下
+        let imagesPath = "\(pathString)/images/\(imageName)"
+        if (!FileManager.default.fileExists(atPath: imagesPath)) {
+            // 没有则创建
+            try! FileManager().createDirectory(atPath: imagesPath, withIntermediateDirectories: true, attributes: nil)
         }
         // 根据路径保存image
-        guard let imageData = image.pngData() as NSData? else {
+        guard let imageData = image.jpegData(compressionQuality: 0.5) as NSData? else {
             return false
         }
-        let result = imageData.write(toFile: "\(pathString)/images/\(imageName)", atomically: true)
+        let result = imageData.write(toFile: imagesPath, atomically: true)
+        print(result == true ? "图片保存成功" : "图片保存失败")
+        return result
+    }
+    
+    //MARK: - 保存plist文件到本地文件夹
+    class func savePlistForDirectory(with sources: NSArray, named plistName: String, fileTypePath: AppDirectoryPath) -> Bool {
+        guard let pathString = getFilePath(with: fileTypePath) else {
+            return false
+        }
+        let dataPath = "\(pathString)\(plistName)"
+//        if (!FileManager.default.fileExists(atPath: dataPath)) {
+//            // 没有文件则创建
+//            try! FileManager().createDirectory(atPath: dataPath, withIntermediateDirectories: true, attributes: nil)
+//        }
+        let result = sources.write(toFile: dataPath, atomically: true)
+        print(result == true ? "数据保存成功" : "数据保存失败")
         return result
     }
     

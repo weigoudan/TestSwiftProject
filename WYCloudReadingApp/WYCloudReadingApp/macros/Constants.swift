@@ -8,6 +8,11 @@
 
 import UIKit
 
+/**
+ Tag值
+ */
+let BookStoreTopMenuButtonTag = 10000
+
 
 
 class Constants: NSObject {

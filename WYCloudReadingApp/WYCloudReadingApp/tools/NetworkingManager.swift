@@ -6,10 +6,17 @@
 //  Copyright © 2018年  iOS-韦云枭. All rights reserved.
 //
 
-import UIKit
 
-class NetworkingManager: NSObject {
+protocol NetworkingManager {
     
     
     
 }
+
+
+extension NetworkingManager {
+    
+    
+    
+}
+

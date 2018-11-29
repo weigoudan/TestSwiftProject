@@ -23,6 +23,20 @@
 		A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A282193CAB5005E8A32 /* RegisterVC.swift */; };
 		A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */; };
 		A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */; };
+		A546BF4021AF94BB0005C72C /* BookStoreTopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */; };
+		A546BF4221AFB6F40005C72C /* BookStoreTopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */; };
+		A546BF4421AFB7420005C72C /* BookStoreTopSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */; };
+		A546BF4621AFC13A0005C72C /* BookStoreTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */; };
+		A546BF4921AFC9240005C72C /* BookStoreLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */; };
+		A546BF4A21AFC9240005C72C /* BookStoreLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */; };
+		A546BF4D21AFC9690005C72C /* BookStoreVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */; };
+		A546BF4E21AFC9690005C72C /* BookStoreVerticalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */; };
+		A546BF5121AFE0460005C72C /* BSHandpickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5021AFE0460005C72C /* BSHandpickVC.swift */; };
+		A546BF5321AFE0590005C72C /* BSFreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5221AFE0590005C72C /* BSFreeVC.swift */; };
+		A546BF5721AFE0A80005C72C /* BSSchoolboyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5621AFE0A80005C72C /* BSSchoolboyVC.swift */; };
+		A546BF5921AFE0D00005C72C /* BSSchoolgirlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5821AFE0D00005C72C /* BSSchoolgirlVC.swift */; };
+		A546BF5B21AFE0F20005C72C /* BSPublishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5A21AFE0F20005C72C /* BSPublishVC.swift */; };
+		A546BF5D21AFE11B0005C72C /* BSListenStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5C21AFE11B0005C72C /* BSListenStoryVC.swift */; };
 		A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5558407219283A100C8E0C3 /* BookStoreVC.swift */; };
 		A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840A219283EC00C8E0C3 /* ClassifyVC.swift */; };
 		A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A555840F2192AE9C00C8E0C3 /* MineItem.plist */; };
@@ -87,6 +101,20 @@
 		A5434A282193CAB5005E8A32 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 		A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingVC.swift; sourceTree = "<group>"; };
+		A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTopMenuView.swift; sourceTree = "<group>"; };
+		A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTopSearchView.swift; sourceTree = "<group>"; };
+		A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreTopSearchView.xib; sourceTree = "<group>"; };
+		A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTableHeaderView.swift; sourceTree = "<group>"; };
+		A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreLevelCell.swift; sourceTree = "<group>"; };
+		A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreLevelCell.xib; sourceTree = "<group>"; };
+		A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVerticalCell.swift; sourceTree = "<group>"; };
+		A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreVerticalCell.xib; sourceTree = "<group>"; };
+		A546BF5021AFE0460005C72C /* BSHandpickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSHandpickVC.swift; sourceTree = "<group>"; };
+		A546BF5221AFE0590005C72C /* BSFreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSFreeVC.swift; sourceTree = "<group>"; };
+		A546BF5621AFE0A80005C72C /* BSSchoolboyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSchoolboyVC.swift; sourceTree = "<group>"; };
+		A546BF5821AFE0D00005C72C /* BSSchoolgirlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSchoolgirlVC.swift; sourceTree = "<group>"; };
+		A546BF5A21AFE0F20005C72C /* BSPublishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSPublishVC.swift; sourceTree = "<group>"; };
+		A546BF5C21AFE11B0005C72C /* BSListenStoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSListenStoryVC.swift; sourceTree = "<group>"; };
 		A5558407219283A100C8E0C3 /* BookStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
 		A555840A219283EC00C8E0C3 /* ClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyVC.swift; sourceTree = "<group>"; };
 		A555840F2192AE9C00C8E0C3 /* MineItem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MineItem.plist; sourceTree = "<group>"; };
@@ -197,10 +225,32 @@
 			path = "广告";
 			sourceTree = "<group>";
 		};
+		A546BF4F21AFCB5E0005C72C /* 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				A546BF5021AFE0460005C72C /* BSHandpickVC.swift */,
+				A546BF5221AFE0590005C72C /* BSFreeVC.swift */,
+				A546BF5621AFE0A80005C72C /* BSSchoolboyVC.swift */,
+				A546BF5821AFE0D00005C72C /* BSSchoolgirlVC.swift */,
+				A546BF5A21AFE0F20005C72C /* BSPublishVC.swift */,
+				A546BF5C21AFE11B0005C72C /* BSListenStoryVC.swift */,
+			);
+			path = "列表";
+			sourceTree = "<group>";
+		};
 		A55584062192835A00C8E0C3 /* 书城 */ = {
 			isa = PBXGroup;
 			children = (
+				A546BF4F21AFCB5E0005C72C /* 列表 */,
 				A5558407219283A100C8E0C3 /* BookStoreVC.swift */,
+				A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */,
+				A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */,
+				A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */,
+				A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */,
+				A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */,
+				A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */,
+				A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */,
+				A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */,
 			);
 			path = "书城";
 			sourceTree = "<group>";
@@ -535,8 +585,11 @@
 				A56387A92174779F007D7D68 /* LaunchScreen.storyboard in Resources */,
 				A50983442195270100D49B5A /* SetDefaultCell.xib in Resources */,
 				A56387A62174779F007D7D68 /* Assets.xcassets in Resources */,
+				A546BF4421AFB7420005C72C /* BookStoreTopSearchView.xib in Resources */,
 				A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */,
+				A546BF4E21AFC9690005C72C /* BookStoreVerticalCell.xib in Resources */,
 				A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */,
+				A546BF4A21AFC9240005C72C /* BookStoreLevelCell.xib in Resources */,
 				A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */,
 				A509834C2195706000D49B5A /* Mine.storyboard in Resources */,
 				A56387A421747799007D7D68 /* Main.storyboard in Resources */,
@@ -617,23 +670,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				A50983432195270100D49B5A /* SetDefaultCell.swift in Sources */,
+				A546BF4921AFC9240005C72C /* BookStoreLevelCell.swift in Sources */,
 				A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */,
 				A50983482195691600D49B5A /* MyInfoVC.swift in Sources */,
 				A5BAC44F21A260A600843D66 /* KeychainPasswordItem.swift in Sources */,
 				A50983402195154300D49B5A /* DefaultNavigationView.swift in Sources */,
 				A563879F21747799007D7D68 /* AppDelegate.swift in Sources */,
+				A546BF4021AF94BB0005C72C /* BookStoreTopMenuView.swift in Sources */,
 				A555841B2192D46600C8E0C3 /* MineItemRightViewCell.swift in Sources */,
 				A509833E2195145600D49B5A /* SetVC.swift in Sources */,
+				A546BF5B21AFE0F20005C72C /* BSPublishVC.swift in Sources */,
 				A5BAC45121A2804E00843D66 /* DBFileManager.swift in Sources */,
 				A55584122192BE6500C8E0C3 /* Tools.swift in Sources */,
 				A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */,
 				A509834621955E1600D49B5A /* PlaceholderVC.swift in Sources */,
+				A546BF4221AFB6F40005C72C /* BookStoreTopSearchView.swift in Sources */,
 				A56387E02174A5BF007D7D68 /* BasicViewController.swift in Sources */,
+				A546BF4D21AFC9690005C72C /* BookStoreVerticalCell.swift in Sources */,
 				A52CA4902186E5B2008A9764 /* Enum.swift in Sources */,
 				A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */,
 				A56387E22174A5F6007D7D68 /* DefaultTabbarView.swift in Sources */,
 				A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */,
+				A546BF5D21AFE11B0005C72C /* BSListenStoryVC.swift in Sources */,
+				A546BF5321AFE0590005C72C /* BSFreeVC.swift in Sources */,
 				A509833A219513F100D49B5A /* MineVC.swift in Sources */,
+				A546BF5921AFE0D00005C72C /* BSSchoolgirlVC.swift in Sources */,
 				A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */,
 				A56387DC2174A491007D7D68 /* RootTabbarController.swift in Sources */,
 				A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */,
@@ -643,8 +704,11 @@
 				A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */,
 				A56387D92174A442007D7D68 /* NetworkingManager.swift in Sources */,
 				A509834A2195692C00D49B5A /* EditUserInfoVC.swift in Sources */,
+				A546BF4621AFC13A0005C72C /* BookStoreTableHeaderView.swift in Sources */,
 				A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */,
 				A56387DE2174A4C2007D7D68 /* DefaultNavController.swift in Sources */,
+				A546BF5721AFE0A80005C72C /* BSSchoolboyVC.swift in Sources */,
+				A546BF5121AFE0460005C72C /* BSHandpickVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

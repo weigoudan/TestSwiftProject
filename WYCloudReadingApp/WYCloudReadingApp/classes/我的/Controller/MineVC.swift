@@ -40,7 +40,7 @@ class MineVC: UIViewController {
     }()
     
     /* 数据源 */
-    let sourceArray : [[[String : String]]] = Tools.getPlistFileSourceFunc(path: "MineItem", fileType: .PlistTypeForArray) as! [[[String : String]]]
+    let sourceArray: [[[String : String]]] = Tools.getPlistFileSourceFunc(path: "MineItem", fileType: .PlistTypeForArray) as! [[[String : String]]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +52,8 @@ class MineVC: UIViewController {
         // 刷新列表
         bottomTableView.reloadData()
         
+//        let array = NSArray.init(array: ["134", "234", "2222", 555, "haha"])
+//        DBFileManager.savePlistForDirectory(with: array, named: "/Array.plist", fileTypePath: .caches)
     }
     
     override func viewWillAppear(_ animated: Bool) {

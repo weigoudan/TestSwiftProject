@@ -9,12 +9,20 @@
 import UIKit
 
 class BookStoreVC: UIViewController {
-
+    
+    static let bsLevelCellIdnetifier = "bsLevelCell"
+    static let bsVerticalCellIdnetifier = "bsLevelCell"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // 白色背景颜色
         view.backgroundColor = .white
-
+        // 添加子视图
+        view.addSubview(topMenuView)
+        view.addSubview(bottomTableView)
+        
+        // 请求列表数据
         
     }
     
@@ -24,15 +32,44 @@ class BookStoreVC: UIViewController {
         navigationController?.isNavigationBarHidden = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    //MARK: - 懒加载
+    
+    // 顶部菜单view
+    lazy var topMenuView: BookStoreTopMenuView = {
+        let view = BookStoreTopMenuView.init(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100), titleArray: nil)
+        return view;
+    }()
+    
+    // 列表
+    lazy var bottomTableView: UICollectionView = {
+        // layout
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
+        
+        let collectionView = UICollectionView.init(frame: CGRect(x: 0, y: topMenuView.frame.maxY, width: kScreenWidth, height: kScreenHeight-topMenuView.frame.maxY-49), collectionViewLayout: layout)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        //  注册cell
+        collectionView.register(UINib.init(nibName: "BookStoreLevelCell", bundle: nil), forCellWithReuseIdentifier: BookStoreVC.bsLevelCellIdnetifier)
+        collectionView.register(UINib.init(nibName: "BookStoreVerticalCell", bundle: nil), forCellWithReuseIdentifier: BookStoreVC.bsVerticalCellIdnetifier)
+        return collectionView
+    }()
+    
 
 }
+
+extension BookStoreVC: UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+    }
+    
+    
+    
+    
+}
+

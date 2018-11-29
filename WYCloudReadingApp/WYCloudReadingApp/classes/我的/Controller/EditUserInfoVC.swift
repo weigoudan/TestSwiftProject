@@ -80,7 +80,7 @@ class EditUserInfoVC: UIViewController {
     @IBAction func saveBtnClickFunc(_ sender: UIButton) {
         // 保存头像
         if editImage != nil {
-            if DBFileManager.saveImageForDirectory(with: editImage!, named: "userHeadImage.png", filePath: .caches) == false {
+            if DBFileManager.saveImageForDirectory(with: editImage!, named: "userHeadImage", fileTypePath: .caches) == false {
                 SVProgressHUD.showError(withStatus: "保存图片失败")
             }
         }
@@ -126,7 +126,7 @@ extension EditUserInfoVC: UITextFieldDelegate, UITextViewDelegate, UIImagePicker
     /* 加载本地数据 */
     private func setDataForViewFunc() -> Void {
         // 头像
-        if let data = DBFileManager.getDataForDirectory(named: "/images/userHeadImage.png", filePath: .caches) {
+        if let data = DBFileManager.getDataForDirectory(named: "/images/userHeadImage", filePath: .caches) {
             headImgView.image = UIImage.init(data: data as Data)
         }
         // 昵称

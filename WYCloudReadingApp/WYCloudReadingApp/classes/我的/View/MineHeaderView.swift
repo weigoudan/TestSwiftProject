@@ -85,8 +85,10 @@ extension MineHeaderView {
                 nameLB.text = nickName as? String;
             }
             // 头像
-            if let data = DBFileManager.getDataForDirectory(named: "/images/userHeadImage.png", filePath: .caches) {
+            if let data = DBFileManager.getDataForDirectory(named: "/images/userHeadImage", filePath: .caches) {
                 self.headImgView.image = UIImage.init(data: data as Data)
+            }else {
+                
             }
         }else {
             loginBtn.isHidden = false
