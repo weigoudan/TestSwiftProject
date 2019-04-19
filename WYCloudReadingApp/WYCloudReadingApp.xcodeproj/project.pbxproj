@@ -23,21 +23,12 @@
 		A5434A292193CAB5005E8A32 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A282193CAB5005E8A32 /* RegisterVC.swift */; };
 		A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */; };
 		A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */; };
-		A546BF4021AF94BB0005C72C /* BookStoreTopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */; };
-		A546BF4221AFB6F40005C72C /* BookStoreTopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */; };
-		A546BF4421AFB7420005C72C /* BookStoreTopSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */; };
-		A546BF4621AFC13A0005C72C /* BookStoreTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */; };
-		A546BF4921AFC9240005C72C /* BookStoreLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */; };
-		A546BF4A21AFC9240005C72C /* BookStoreLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */; };
-		A546BF4D21AFC9690005C72C /* BookStoreVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */; };
-		A546BF4E21AFC9690005C72C /* BookStoreVerticalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */; };
 		A546BF5121AFE0460005C72C /* BSHandpickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5021AFE0460005C72C /* BSHandpickVC.swift */; };
 		A546BF5321AFE0590005C72C /* BSFreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5221AFE0590005C72C /* BSFreeVC.swift */; };
 		A546BF5721AFE0A80005C72C /* BSSchoolboyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5621AFE0A80005C72C /* BSSchoolboyVC.swift */; };
 		A546BF5921AFE0D00005C72C /* BSSchoolgirlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5821AFE0D00005C72C /* BSSchoolgirlVC.swift */; };
 		A546BF5B21AFE0F20005C72C /* BSPublishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5A21AFE0F20005C72C /* BSPublishVC.swift */; };
 		A546BF5D21AFE11B0005C72C /* BSListenStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546BF5C21AFE11B0005C72C /* BSListenStoryVC.swift */; };
-		A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5558407219283A100C8E0C3 /* BookStoreVC.swift */; };
 		A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555840A219283EC00C8E0C3 /* ClassifyVC.swift */; };
 		A55584102192AE9C00C8E0C3 /* MineItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A555840F2192AE9C00C8E0C3 /* MineItem.plist */; };
 		A55584122192BE6500C8E0C3 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584112192BE6400C8E0C3 /* Tools.swift */; };
@@ -49,6 +40,23 @@
 		A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555841E2192DEDA00C8E0C3 /* DataModel.swift */; };
 		A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55584202192E8E000C8E0C3 /* MineHeaderView.swift */; };
 		A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55584222192EA4000C8E0C3 /* MineHeaderView.xib */; };
+		A55B610821B769EF00FE2616 /* BookStoreTopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B610021B769EF00FE2616 /* BookStoreTopSearchView.swift */; };
+		A55B610921B769EF00FE2616 /* BookStoreTopSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55B610121B769EF00FE2616 /* BookStoreTopSearchView.xib */; };
+		A55B610A21B769EF00FE2616 /* BookStoreVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B610221B769EF00FE2616 /* BookStoreVerticalCell.swift */; };
+		A55B610B21B769EF00FE2616 /* BookStoreLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55B610321B769EF00FE2616 /* BookStoreLevelCell.xib */; };
+		A55B610C21B769EF00FE2616 /* BookStoreLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B610421B769EF00FE2616 /* BookStoreLevelCell.swift */; };
+		A55B610D21B769EF00FE2616 /* BookStoreTopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B610521B769EF00FE2616 /* BookStoreTopMenuView.swift */; };
+		A55B610E21B769EF00FE2616 /* BookStoreVerticalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55B610621B769EF00FE2616 /* BookStoreVerticalCell.xib */; };
+		A55B610F21B769EF00FE2616 /* BookStoreTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B610721B769EF00FE2616 /* BookStoreTableHeaderView.swift */; };
+		A55B611121B769FA00FE2616 /* BookStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B611021B769F900FE2616 /* BookStoreVC.swift */; };
+		A55B611621B77EEB00FE2616 /* BookStoreTitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B611521B77EEB00FE2616 /* BookStoreTitleHeaderView.swift */; };
+		A55B612D21B7AFF500FE2616 /* UIButton+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B611C21B7AFF500FE2616 /* UIButton+SGPagingView.m */; };
+		A55B612E21B7AFF500FE2616 /* UIView+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B611E21B7AFF500FE2616 /* UIView+SGPagingView.m */; };
+		A55B612F21B7AFF500FE2616 /* SGPagingViewPopGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B612121B7AFF500FE2616 /* SGPagingViewPopGestureVC.m */; };
+		A55B613021B7AFF500FE2616 /* SGPageContentCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B612421B7AFF500FE2616 /* SGPageContentCollectionView.m */; };
+		A55B613121B7AFF500FE2616 /* SGPageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B612621B7AFF500FE2616 /* SGPageContentScrollView.m */; };
+		A55B613221B7AFF500FE2616 /* SGPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B612921B7AFF500FE2616 /* SGPageTitleView.m */; };
+		A55B613321B7AFF500FE2616 /* SGPageTitleViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B612B21B7AFF500FE2616 /* SGPageTitleViewConfigure.m */; };
 		A563879F21747799007D7D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563879E21747799007D7D68 /* AppDelegate.swift */; };
 		A56387A421747799007D7D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56387A221747799007D7D68 /* Main.storyboard */; };
 		A56387A62174779F007D7D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56387A52174779F007D7D68 /* Assets.xcassets */; };
@@ -101,21 +109,12 @@
 		A5434A282193CAB5005E8A32 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		A5434A2A21941161005E8A32 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 		A5434A2D21943A0C005E8A32 /* AdvertisingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingVC.swift; sourceTree = "<group>"; };
-		A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTopMenuView.swift; sourceTree = "<group>"; };
-		A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTopSearchView.swift; sourceTree = "<group>"; };
-		A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreTopSearchView.xib; sourceTree = "<group>"; };
-		A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTableHeaderView.swift; sourceTree = "<group>"; };
-		A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreLevelCell.swift; sourceTree = "<group>"; };
-		A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreLevelCell.xib; sourceTree = "<group>"; };
-		A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVerticalCell.swift; sourceTree = "<group>"; };
-		A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookStoreVerticalCell.xib; sourceTree = "<group>"; };
 		A546BF5021AFE0460005C72C /* BSHandpickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSHandpickVC.swift; sourceTree = "<group>"; };
 		A546BF5221AFE0590005C72C /* BSFreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSFreeVC.swift; sourceTree = "<group>"; };
 		A546BF5621AFE0A80005C72C /* BSSchoolboyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSchoolboyVC.swift; sourceTree = "<group>"; };
 		A546BF5821AFE0D00005C72C /* BSSchoolgirlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSchoolgirlVC.swift; sourceTree = "<group>"; };
 		A546BF5A21AFE0F20005C72C /* BSPublishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSPublishVC.swift; sourceTree = "<group>"; };
 		A546BF5C21AFE11B0005C72C /* BSListenStoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSListenStoryVC.swift; sourceTree = "<group>"; };
-		A5558407219283A100C8E0C3 /* BookStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
 		A555840A219283EC00C8E0C3 /* ClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyVC.swift; sourceTree = "<group>"; };
 		A555840F2192AE9C00C8E0C3 /* MineItem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MineItem.plist; sourceTree = "<group>"; };
 		A55584112192BE6400C8E0C3 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -127,6 +126,31 @@
 		A555841E2192DEDA00C8E0C3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		A55584202192E8E000C8E0C3 /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
 		A55584222192EA4000C8E0C3 /* MineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineHeaderView.xib; sourceTree = "<group>"; };
+		A55B610021B769EF00FE2616 /* BookStoreTopSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreTopSearchView.swift; sourceTree = "<group>"; };
+		A55B610121B769EF00FE2616 /* BookStoreTopSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookStoreTopSearchView.xib; sourceTree = "<group>"; };
+		A55B610221B769EF00FE2616 /* BookStoreVerticalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreVerticalCell.swift; sourceTree = "<group>"; };
+		A55B610321B769EF00FE2616 /* BookStoreLevelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookStoreLevelCell.xib; sourceTree = "<group>"; };
+		A55B610421B769EF00FE2616 /* BookStoreLevelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreLevelCell.swift; sourceTree = "<group>"; };
+		A55B610521B769EF00FE2616 /* BookStoreTopMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreTopMenuView.swift; sourceTree = "<group>"; };
+		A55B610621B769EF00FE2616 /* BookStoreVerticalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookStoreVerticalCell.xib; sourceTree = "<group>"; };
+		A55B610721B769EF00FE2616 /* BookStoreTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreTableHeaderView.swift; sourceTree = "<group>"; };
+		A55B611021B769F900FE2616 /* BookStoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStoreVC.swift; sourceTree = "<group>"; };
+		A55B611521B77EEB00FE2616 /* BookStoreTitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreTitleHeaderView.swift; sourceTree = "<group>"; };
+		A55B611B21B7AFF500FE2616 /* UIButton+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SGPagingView.h"; sourceTree = "<group>"; };
+		A55B611C21B7AFF500FE2616 /* UIButton+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SGPagingView.m"; sourceTree = "<group>"; };
+		A55B611D21B7AFF500FE2616 /* UIView+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGPagingView.h"; sourceTree = "<group>"; };
+		A55B611E21B7AFF500FE2616 /* UIView+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGPagingView.m"; sourceTree = "<group>"; };
+		A55B612021B7AFF500FE2616 /* SGPagingViewPopGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPagingViewPopGestureVC.h; sourceTree = "<group>"; };
+		A55B612121B7AFF500FE2616 /* SGPagingViewPopGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPagingViewPopGestureVC.m; sourceTree = "<group>"; };
+		A55B612321B7AFF500FE2616 /* SGPageContentCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentCollectionView.h; sourceTree = "<group>"; };
+		A55B612421B7AFF500FE2616 /* SGPageContentCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentCollectionView.m; sourceTree = "<group>"; };
+		A55B612521B7AFF500FE2616 /* SGPageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentScrollView.h; sourceTree = "<group>"; };
+		A55B612621B7AFF500FE2616 /* SGPageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentScrollView.m; sourceTree = "<group>"; };
+		A55B612821B7AFF500FE2616 /* SGPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleView.h; sourceTree = "<group>"; };
+		A55B612921B7AFF500FE2616 /* SGPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleView.m; sourceTree = "<group>"; };
+		A55B612A21B7AFF500FE2616 /* SGPageTitleViewConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleViewConfigure.h; sourceTree = "<group>"; };
+		A55B612B21B7AFF500FE2616 /* SGPageTitleViewConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleViewConfigure.m; sourceTree = "<group>"; };
+		A55B612C21B7AFF500FE2616 /* SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPagingView.h; sourceTree = "<group>"; };
 		A563879B21747799007D7D68 /* WYCloudReadingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYCloudReadingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A563879E21747799007D7D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56387A321747799007D7D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -241,16 +265,9 @@
 		A55584062192835A00C8E0C3 /* 书城 */ = {
 			isa = PBXGroup;
 			children = (
+				A55B60FE21B7699800FE2616 /* Controller */,
+				A55B60FF21B769AA00FE2616 /* View */,
 				A546BF4F21AFCB5E0005C72C /* 列表 */,
-				A5558407219283A100C8E0C3 /* BookStoreVC.swift */,
-				A546BF4121AFB6F40005C72C /* BookStoreTopSearchView.swift */,
-				A546BF4321AFB7420005C72C /* BookStoreTopSearchView.xib */,
-				A546BF3F21AF94BB0005C72C /* BookStoreTopMenuView.swift */,
-				A546BF4521AFC13A0005C72C /* BookStoreTableHeaderView.swift */,
-				A546BF4721AFC9240005C72C /* BookStoreLevelCell.swift */,
-				A546BF4821AFC9240005C72C /* BookStoreLevelCell.xib */,
-				A546BF4B21AFC9690005C72C /* BookStoreVerticalCell.swift */,
-				A546BF4C21AFC9690005C72C /* BookStoreVerticalCell.xib */,
 			);
 			path = "书城";
 			sourceTree = "<group>";
@@ -279,6 +296,84 @@
 				A555841E2192DEDA00C8E0C3 /* DataModel.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		A55B60FE21B7699800FE2616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A55B611021B769F900FE2616 /* BookStoreVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A55B60FF21B769AA00FE2616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A55B610721B769EF00FE2616 /* BookStoreTableHeaderView.swift */,
+				A55B611521B77EEB00FE2616 /* BookStoreTitleHeaderView.swift */,
+				A55B610521B769EF00FE2616 /* BookStoreTopMenuView.swift */,
+				A55B610021B769EF00FE2616 /* BookStoreTopSearchView.swift */,
+				A55B610121B769EF00FE2616 /* BookStoreTopSearchView.xib */,
+				A55B610421B769EF00FE2616 /* BookStoreLevelCell.swift */,
+				A55B610321B769EF00FE2616 /* BookStoreLevelCell.xib */,
+				A55B610221B769EF00FE2616 /* BookStoreVerticalCell.swift */,
+				A55B610621B769EF00FE2616 /* BookStoreVerticalCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A55B611921B7AFF500FE2616 /* SGPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				A55B611A21B7AFF500FE2616 /* Category */,
+				A55B611F21B7AFF500FE2616 /* Controller */,
+				A55B612221B7AFF500FE2616 /* SGPageContent */,
+				A55B612721B7AFF500FE2616 /* SGPageTitle */,
+				A55B612C21B7AFF500FE2616 /* SGPagingView.h */,
+			);
+			path = SGPagingView;
+			sourceTree = "<group>";
+		};
+		A55B611A21B7AFF500FE2616 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A55B611B21B7AFF500FE2616 /* UIButton+SGPagingView.h */,
+				A55B611C21B7AFF500FE2616 /* UIButton+SGPagingView.m */,
+				A55B611D21B7AFF500FE2616 /* UIView+SGPagingView.h */,
+				A55B611E21B7AFF500FE2616 /* UIView+SGPagingView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A55B611F21B7AFF500FE2616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A55B612021B7AFF500FE2616 /* SGPagingViewPopGestureVC.h */,
+				A55B612121B7AFF500FE2616 /* SGPagingViewPopGestureVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A55B612221B7AFF500FE2616 /* SGPageContent */ = {
+			isa = PBXGroup;
+			children = (
+				A55B612321B7AFF500FE2616 /* SGPageContentCollectionView.h */,
+				A55B612421B7AFF500FE2616 /* SGPageContentCollectionView.m */,
+				A55B612521B7AFF500FE2616 /* SGPageContentScrollView.h */,
+				A55B612621B7AFF500FE2616 /* SGPageContentScrollView.m */,
+			);
+			path = SGPageContent;
+			sourceTree = "<group>";
+		};
+		A55B612721B7AFF500FE2616 /* SGPageTitle */ = {
+			isa = PBXGroup;
+			children = (
+				A55B612821B7AFF500FE2616 /* SGPageTitleView.h */,
+				A55B612921B7AFF500FE2616 /* SGPageTitleView.m */,
+				A55B612A21B7AFF500FE2616 /* SGPageTitleViewConfigure.h */,
+				A55B612B21B7AFF500FE2616 /* SGPageTitleViewConfigure.m */,
+			);
+			path = SGPageTitle;
 			sourceTree = "<group>";
 		};
 		A563879221747799007D7D68 = {
@@ -346,6 +441,7 @@
 		A56387D021749233007D7D68 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				A55B611921B7AFF500FE2616 /* SGPagingView */,
 			);
 			path = libs;
 			sourceTree = "<group>";
@@ -585,11 +681,11 @@
 				A56387A92174779F007D7D68 /* LaunchScreen.storyboard in Resources */,
 				A50983442195270100D49B5A /* SetDefaultCell.xib in Resources */,
 				A56387A62174779F007D7D68 /* Assets.xcassets in Resources */,
-				A546BF4421AFB7420005C72C /* BookStoreTopSearchView.xib in Resources */,
+				A55B610921B769EF00FE2616 /* BookStoreTopSearchView.xib in Resources */,
 				A5434A272193CA9B005E8A32 /* LoginAndRegister.storyboard in Resources */,
-				A546BF4E21AFC9690005C72C /* BookStoreVerticalCell.xib in Resources */,
+				A55B610E21B769EF00FE2616 /* BookStoreVerticalCell.xib in Resources */,
 				A55584232192EA4000C8E0C3 /* MineHeaderView.xib in Resources */,
-				A546BF4A21AFC9240005C72C /* BookStoreLevelCell.xib in Resources */,
+				A55B610B21B769EF00FE2616 /* BookStoreLevelCell.xib in Resources */,
 				A555841C2192D46600C8E0C3 /* MineItemRightViewCell.xib in Resources */,
 				A509834C2195706000D49B5A /* Mine.storyboard in Resources */,
 				A56387A421747799007D7D68 /* Main.storyboard in Resources */,
@@ -625,6 +721,8 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -635,6 +733,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -670,13 +770,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A50983432195270100D49B5A /* SetDefaultCell.swift in Sources */,
-				A546BF4921AFC9240005C72C /* BookStoreLevelCell.swift in Sources */,
 				A555840B219283EC00C8E0C3 /* ClassifyVC.swift in Sources */,
 				A50983482195691600D49B5A /* MyInfoVC.swift in Sources */,
 				A5BAC44F21A260A600843D66 /* KeychainPasswordItem.swift in Sources */,
 				A50983402195154300D49B5A /* DefaultNavigationView.swift in Sources */,
+				A55B610821B769EF00FE2616 /* BookStoreTopSearchView.swift in Sources */,
+				A55B610D21B769EF00FE2616 /* BookStoreTopMenuView.swift in Sources */,
+				A55B612E21B7AFF500FE2616 /* UIView+SGPagingView.m in Sources */,
+				A55B610C21B769EF00FE2616 /* BookStoreLevelCell.swift in Sources */,
+				A55B612D21B7AFF500FE2616 /* UIButton+SGPagingView.m in Sources */,
 				A563879F21747799007D7D68 /* AppDelegate.swift in Sources */,
-				A546BF4021AF94BB0005C72C /* BookStoreTopMenuView.swift in Sources */,
 				A555841B2192D46600C8E0C3 /* MineItemRightViewCell.swift in Sources */,
 				A509833E2195145600D49B5A /* SetVC.swift in Sources */,
 				A546BF5B21AFE0F20005C72C /* BSPublishVC.swift in Sources */,
@@ -684,13 +787,14 @@
 				A55584122192BE6500C8E0C3 /* Tools.swift in Sources */,
 				A555841F2192DEDA00C8E0C3 /* DataModel.swift in Sources */,
 				A509834621955E1600D49B5A /* PlaceholderVC.swift in Sources */,
-				A546BF4221AFB6F40005C72C /* BookStoreTopSearchView.swift in Sources */,
 				A56387E02174A5BF007D7D68 /* BasicViewController.swift in Sources */,
-				A546BF4D21AFC9690005C72C /* BookStoreVerticalCell.swift in Sources */,
+				A55B612F21B7AFF500FE2616 /* SGPagingViewPopGestureVC.m in Sources */,
 				A52CA4902186E5B2008A9764 /* Enum.swift in Sources */,
 				A5434A2B21941161005E8A32 /* ForgetPasswordVC.swift in Sources */,
 				A56387E22174A5F6007D7D68 /* DefaultTabbarView.swift in Sources */,
+				A55B613221B7AFF500FE2616 /* SGPageTitleView.m in Sources */,
 				A55584142192C39000C8E0C3 /* ExecuteHeader.swift in Sources */,
+				A55B613021B7AFF500FE2616 /* SGPageContentCollectionView.m in Sources */,
 				A546BF5D21AFE11B0005C72C /* BSListenStoryVC.swift in Sources */,
 				A546BF5321AFE0590005C72C /* BSFreeVC.swift in Sources */,
 				A509833A219513F100D49B5A /* MineVC.swift in Sources */,
@@ -699,13 +803,17 @@
 				A56387DC2174A491007D7D68 /* RootTabbarController.swift in Sources */,
 				A55584212192E8E100C8E0C3 /* MineHeaderView.swift in Sources */,
 				A55584172192D18900C8E0C3 /* MineItemDefaultCell.swift in Sources */,
+				A55B611121B769FA00FE2616 /* BookStoreVC.swift in Sources */,
+				A55B613121B7AFF500FE2616 /* SGPageContentScrollView.m in Sources */,
 				A5434A2E21943A0C005E8A32 /* AdvertisingVC.swift in Sources */,
+				A55B610F21B769EF00FE2616 /* BookStoreTableHeaderView.swift in Sources */,
+				A55B610A21B769EF00FE2616 /* BookStoreVerticalCell.swift in Sources */,
 				A56387E72174A7AE007D7D68 /* Constants.swift in Sources */,
 				A5434A252193CA7F005E8A32 /* LoginVC.swift in Sources */,
 				A56387D92174A442007D7D68 /* NetworkingManager.swift in Sources */,
+				A55B611621B77EEB00FE2616 /* BookStoreTitleHeaderView.swift in Sources */,
+				A55B613321B7AFF500FE2616 /* SGPageTitleViewConfigure.m in Sources */,
 				A509834A2195692C00D49B5A /* EditUserInfoVC.swift in Sources */,
-				A546BF4621AFC13A0005C72C /* BookStoreTableHeaderView.swift in Sources */,
-				A5558408219283A100C8E0C3 /* BookStoreVC.swift in Sources */,
 				A56387DE2174A4C2007D7D68 /* DefaultNavController.swift in Sources */,
 				A546BF5721AFE0A80005C72C /* BSSchoolboyVC.swift in Sources */,
 				A546BF5121AFE0460005C72C /* BSHandpickVC.swift in Sources */,

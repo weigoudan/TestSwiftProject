@@ -6,4 +6,6 @@
 #import "IQKeyboardManager.h"
 #import "SVProgressHUD.h"
 #import "Masonry.h"
+#import "SDCycleScrollView.h"
+#import "SGPageContentScrollView.h"
 

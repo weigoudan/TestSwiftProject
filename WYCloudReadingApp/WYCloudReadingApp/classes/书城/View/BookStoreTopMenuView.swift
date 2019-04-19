@@ -13,7 +13,7 @@ class BookStoreTopMenuView: UIView {
     // 菜单标题数据源
     var titleSourceArray: [String] = ["精选", "免费", "男生", "女生", "出版", "听书"]
     // 当前按钮选中下标
-    var menuBtnSelectedIndex: Int = 0
+    var menuBtnSelectedIndex: Int = BookStoreTopMenuButtonTag
     
     
     /* 实例化成员方法 */
@@ -82,7 +82,7 @@ extension BookStoreTopMenuView {
             // 重新新设置菜单按钮
             (viewWithTag(menuBtnSelectedIndex) as! UIButton).titleLabel?.font = UIFont.systemFont(ofSize: 14)
             (viewWithTag(menuBtnSelectedIndex) as! UIButton).setTitleColor(.darkGray, for: .normal)
-            menuBtnSelectedIndex = sender.tag - BookStoreTopMenuButtonTag
+            menuBtnSelectedIndex = sender.tag
             sender.titleLabel?.font = UIFont.systemFont(ofSize: 18)
             sender.setTitleColor(.black, for: .normal)
             

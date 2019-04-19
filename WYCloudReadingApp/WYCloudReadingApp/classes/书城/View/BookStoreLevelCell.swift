@@ -9,7 +9,14 @@
 import UIKit
 
 class BookStoreLevelCell: UICollectionViewCell {
-
+    
+    // 封面图片
+    @IBOutlet weak var coverImgView: UIImageView!
+    // 标题
+    @IBOutlet weak var titleLB: UILabel!
+    // 作者
+    @IBOutlet weak var authorLB: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

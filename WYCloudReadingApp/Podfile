@@ -8,7 +8,7 @@ target 'WYCloudReadingApp' do
   pod 'SVProgressHUD'
   pod 'IQKeyboardManager'
   pod 'Masonry'
-  pod 'SGPagingView'
+  pod 'SDCycleScrollView'
 
 use_frameworks!
 

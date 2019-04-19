@@ -3,6 +3,11 @@ PODS:
   - IQKeyboardManager (5.0.8)
   - Kingfisher (4.6.4)
   - Masonry (1.1.0)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
   - SnapKit (4.0.0)
   - SVProgressHUD (2.2.5)
   - SwiftyJSON (4.0.0)
@@ -12,6 +17,7 @@ DEPENDENCIES:
   - IQKeyboardManager
   - Kingfisher
   - Masonry
+  - SDCycleScrollView
   - SnapKit
   - SVProgressHUD
   - SwiftyJSON
@@ -22,6 +28,8 @@ SPEC REPOS:
     - IQKeyboardManager
     - Kingfisher
     - Masonry
+    - SDCycleScrollView
+    - SDWebImage
     - SnapKit
     - SVProgressHUD
     - SwiftyJSON
@@ -31,10 +39,12 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
   Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 4fd48e8e87a7ceadec0d27512ca1cf9cd944c82b
+PODFILE CHECKSUM: f66b91f7546f70063ab346af6156c693131e2b7d
 
 COCOAPODS: 1.5.3

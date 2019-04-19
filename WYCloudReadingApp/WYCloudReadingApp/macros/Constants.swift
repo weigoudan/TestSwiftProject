@@ -8,6 +8,15 @@
 
 import UIKit
 
+/* 域名 */
+let kBASIC_URL = "http://easyread.163.com"
+
+/* UUID */
+var deviceID = "f2cb32ff209f4010911a77a617add8c4"
+/* IDFA */
+var idfvString = UIDevice.current.identifierForVendor?.uuidString
+
+
 /**
  Tag值
  */
@@ -15,8 +24,4 @@ let BookStoreTopMenuButtonTag = 10000
 
 
 
-class Constants: NSObject {
-    
-    
 
-}
